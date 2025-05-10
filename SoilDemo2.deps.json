@@ -1,0 +1,462 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SoilDemo2/0.5.1003": {
+        "dependencies": {
+          "MathNet.Numerics": "5.0.0",
+          "NetDock": "1.0.0",
+          "System.Drawing.Common": "4.7.3",
+          "CommunityToolkit.Diagnostics": "8.3.0.0",
+          "Emgu.CV.UI": "3.1.0.2282",
+          "Emgu.CV.World": "3.1.0.2282",
+          "HarfBuzzSharp": "1.0.0.0",
+          "HelixToolkit": "3.0.0.0",
+          "HelixToolkit.Geometry": "3.0.0.0",
+          "HelixToolkit.Maths": "3.0.0.0",
+          "HelixToolkit.Wpf": "3.0.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0.0",
+          "OpenTK.Compute": "1.0.0.0",
+          "OpenTK.Core": "4.0.0.0",
+          "OpenTK.Graphics": "4.0.0.0",
+          "OpenTK.Input": "4.0.0.0",
+          "OpenTK.Mathematics": "4.0.0.0",
+          "OpenTK.OpenAL": "4.0.0.0",
+          "OpenTK.Windowing.Common": "4.0.0.0",
+          "OpenTK.Windowing.Desktop": "4.0.0.0",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.0.0.0",
+          "ScottPlot": "5.0.53.0",
+          "ScottPlot.WPF": "5.0.53.0",
+          "SkiaSharp": "2.88.0.0",
+          "SkiaSharp.HarfBuzz": "2.88.0.0",
+          "SkiaSharp.Views.Desktop.Common": "2.88.0.0",
+          "SkiaSharp.Views.WPF": "2.88.0.0"
+        },
+        "runtime": {
+          "SoilDemo2.dll": {}
+        }
+      },
+      "MathNet.Numerics/5.0.0": {
+        "runtime": {
+          "lib/net6.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.9": {},
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.9"
+        }
+      },
+      "System.Drawing.Common/4.7.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.9",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        }
+      },
+      "NetDock/1.0.0": {
+        "runtime": {
+          "NetDock.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CommunityToolkit.Diagnostics/8.3.0.0": {
+        "runtime": {
+          "CommunityToolkit.Diagnostics.dll": {
+            "assemblyVersion": "8.3.0.0",
+            "fileVersion": "8.3.2.1"
+          }
+        }
+      },
+      "Emgu.CV.UI/3.1.0.2282": {
+        "runtime": {
+          "Emgu.CV.UI.dll": {
+            "assemblyVersion": "3.1.0.2282",
+            "fileVersion": "3.1.0.2282"
+          }
+        },
+        "resources": {
+          "zh-CN/Emgu.CV.UI.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      },
+      "Emgu.CV.World/3.1.0.2282": {
+        "runtime": {
+          "Emgu.CV.World.dll": {
+            "assemblyVersion": "3.1.0.2282",
+            "fileVersion": "3.1.0.2282"
+          }
+        }
+      },
+      "HarfBuzzSharp/1.0.0.0": {
+        "runtime": {
+          "HarfBuzzSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "7.3.0.3"
+          }
+        }
+      },
+      "HelixToolkit/3.0.0.0": {
+        "runtime": {
+          "HelixToolkit.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "HelixToolkit.Geometry/3.0.0.0": {
+        "runtime": {
+          "HelixToolkit.Geometry.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "HelixToolkit.Maths/3.0.0.0": {
+        "runtime": {
+          "HelixToolkit.Maths.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "HelixToolkit.Wpf/3.0.0.0": {
+        "runtime": {
+          "HelixToolkit.Wpf.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/8.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "OpenTK.Compute/1.0.0.0": {
+        "runtime": {
+          "OpenTK.Compute.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Core/4.0.0.0": {
+        "runtime": {
+          "OpenTK.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Graphics/4.0.0.0": {
+        "runtime": {
+          "OpenTK.Graphics.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Input/4.0.0.0": {
+        "runtime": {
+          "OpenTK.Input.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Mathematics/4.0.0.0": {
+        "runtime": {
+          "OpenTK.Mathematics.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.OpenAL/4.0.0.0": {
+        "runtime": {
+          "OpenTK.OpenAL.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Windowing.Common/4.0.0.0": {
+        "runtime": {
+          "OpenTK.Windowing.Common.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Windowing.Desktop/4.0.0.0": {
+        "runtime": {
+          "OpenTK.Windowing.Desktop.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Windowing.GraphicsLibraryFramework/4.0.0.0": {
+        "runtime": {
+          "OpenTK.Windowing.GraphicsLibraryFramework.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "ScottPlot/5.0.53.0": {
+        "runtime": {
+          "ScottPlot.dll": {
+            "assemblyVersion": "5.0.53.0",
+            "fileVersion": "5.0.53.0"
+          }
+        }
+      },
+      "ScottPlot.WPF/5.0.53.0": {
+        "runtime": {
+          "ScottPlot.WPF.dll": {
+            "assemblyVersion": "5.0.53.0",
+            "fileVersion": "5.0.53.0"
+          }
+        }
+      },
+      "SkiaSharp/2.88.0.0": {
+        "runtime": {
+          "SkiaSharp.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.9.0"
+          }
+        }
+      },
+      "SkiaSharp.HarfBuzz/2.88.0.0": {
+        "runtime": {
+          "SkiaSharp.HarfBuzz.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.9.0"
+          }
+        }
+      },
+      "SkiaSharp.Views.Desktop.Common/2.88.0.0": {
+        "runtime": {
+          "SkiaSharp.Views.Desktop.Common.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.9.0"
+          }
+        }
+      },
+      "SkiaSharp.Views.WPF/2.88.0.0": {
+        "runtime": {
+          "SkiaSharp.Views.WPF.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.9.0"
+          }
+        }
+      },
+      "ZedGraph/5.1.5.28844": {
+        "runtime": {
+          "ZedGraph.dll": {
+            "assemblyVersion": "5.1.5.28844",
+            "fileVersion": "5.1.5.28844"
+          }
+        },
+        "resources": {
+          "zh-CN/ZedGraph.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SoilDemo2/0.5.1003": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathNet.Numerics/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pg1W2VwaEQMAiTpGK840hZgzavnqjlCMTVSbtVCXVyT+7AX4mc1o89SPv4TBlAjhgCOo9c1Y+jZ5m3ti2YgGgA==",
+      "path": "mathnet.numerics/5.0.0",
+      "hashPath": "mathnet.numerics.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e+/BrhryHoMojWlbcPJAFcShpk3JYvsMfrmoM26dnvHARWR6vtmGbfHppZcANVqf7DUBDIRxlZXcWg7v/9e1TQ==",
+      "path": "microsoft.netcore.platforms/3.1.9",
+      "hashPath": "microsoft.netcore.platforms.3.1.9.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.7.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B3+wwhAeoUQ6KeshWSq3IRLQiMoqPEzSHzyVyxTI/EbYuqIp90lXrRISlip2AF+5tj74ycIVPpnRY4M424HahA==",
+      "path": "system.drawing.common/4.7.3",
+      "hashPath": "system.drawing.common.4.7.3.nupkg.sha512"
+    },
+    "NetDock/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommunityToolkit.Diagnostics/8.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emgu.CV.UI/3.1.0.2282": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Emgu.CV.World/3.1.0.2282": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HarfBuzzSharp/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HelixToolkit/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HelixToolkit.Geometry/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HelixToolkit.Maths/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HelixToolkit.Wpf/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Logging.Abstractions/8.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK.Compute/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK.Core/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK.Graphics/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK.Input/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK.Mathematics/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK.OpenAL/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK.Windowing.Common/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK.Windowing.Desktop/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK.Windowing.GraphicsLibraryFramework/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ScottPlot/5.0.53.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ScottPlot.WPF/5.0.53.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SkiaSharp/2.88.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SkiaSharp.HarfBuzz/2.88.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SkiaSharp.Views.Desktop.Common/2.88.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SkiaSharp.Views.WPF/2.88.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZedGraph/5.1.5.28844": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
